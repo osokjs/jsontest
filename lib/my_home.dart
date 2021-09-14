@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'group_add.dart';
 
 class MyAppHome extends StatelessWidget {
   const MyAppHome({Key? key}) : super(key: key);
@@ -27,11 +26,11 @@ class MyAppHome extends StatelessWidget {
               height: 30,
             ),
             ElevatedButton(
-              onPressed: () => Get.toNamed('/group_list'),
-              child: Text(
-                '엘리베이티드 버튼',
-              ),
-            ), // TextButton
+              onPressed: () {
+
+    },
+              child: Text('엘리베이티드 버튼',),
+            ), // ElevatedButton
           ],
         ), // Column
       ),// padding

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:formtext/view/group_add.dart';
-import 'package:formtext/view/my_home.dart';
 import 'package:get/get.dart';
-import 'package:get/get.dart';
+import 'package:jsontest/config/my_config.dart';
+import 'package:jsontest/my_home.dart';
 
 void main() {
   runApp(MyApp());
